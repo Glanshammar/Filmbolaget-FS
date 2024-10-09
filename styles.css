@@ -24,6 +24,24 @@ main {
     box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Subtle shadow for depth */
 }
 
+#information {
+    background-color: #f5f5f5; /* Light background for contrast */
+    border: 1px solid #8c1c13; /* Border to define the section */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding for spacing */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+#information h1 {
+    font-size: 2em; /* Larger title */
+    color: #8c1c13; /* Title color matching the theme */
+}
+
+#information p {
+    line-height: 1.6; /* Improved readability */
+    margin: 10px 0; /* Spacing between paragraphs */
+}
+
 #information, #trailer {
     text-align: center;
     margin-bottom: 30px;
