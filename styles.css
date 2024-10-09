@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Ljusgrå bakgrund, anpassa efter filmens tema */
+    color: #333; /* Mörkgrå text, anpassa efter filmens tema */
+}
+
+header {
+    background-color: #1a1a1a; /* Mörkgrå header, anpassa efter filmens tema */
+    text-align: center;
+    padding: 20px 0;
+}
+
+header img {
+    max-width: 300px;
+    height: auto;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#information, #trailer {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#trailer iframe {
+    max-width: 100%;
+}
+
+#links {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#links ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#links li {
+    margin: 0 15px;
+}
+
+#links a {
+    text-decoration: none;
+    color: #0066cc; /* Blå länkfärg, anpassa efter filmens tema */
+}
+
+footer {
+    background-color: #333; /* Mörkgrå footer, anpassa efter filmens tema */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    height: 50px;
+    line-height: 20px;
+}
